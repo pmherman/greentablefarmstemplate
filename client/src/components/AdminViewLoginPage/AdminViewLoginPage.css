@@ -1,0 +1,40 @@
+.row {
+    padding: 25px;
+}
+
+.manageUsers {
+    height: 33em;
+    overflow: scroll;
+}
+
+.profilePicture {
+    margin-top: 0.5em;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+.profileBox {
+    height: 12em;
+}
+
+.profileCol {
+    border: 2px dashed darkgreen;
+    margin: 2em;
+    background-color: white;
+    width: 20em;
+}
+
+.adminViewThumbnail {
+    border: 1px solid black !important;
+    border-image: none !important;
+}
+
+#editButton {
+    display: none;
+}
+
+#submitButton {
+    display: inline;
+}

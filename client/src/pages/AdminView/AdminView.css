@@ -1,0 +1,14 @@
+#adminviewcafe {
+    display: none;
+}
+
+#adminviewlogin {
+    display: none;
+}
+
+.select {
+    width: 9em;
+    position: relative;
+    margin-top: 10px;
+    left: 0px;
+}

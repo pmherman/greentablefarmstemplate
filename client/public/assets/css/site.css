@@ -1,0 +1,51 @@
+@font-face {
+    font-family: agilis;
+    src: url("../font/Agilis.otf");
+}
+
+body {
+    background-color: rgba(15, 58, 14);
+    background-image: url(/assets/images/background.jpg);
+    background-repeat: repeat-y;
+    background-size: auto;
+}
+
+p {
+    font-family: agilis;  
+}
+.content {
+    min-height: 100%;
+    padding-bottom: 139px;
+}
+
+
+/* ----------------------- ADMIN VIEW PAGES ----------------------- */
+/* Changes the elements of the form on all Admin View Pages */
+.admin-control {
+    background-color: transparent;
+    color: black !important;
+}
+
+/* ----------------------- All Thumbnail Cards ----------------------- */
+.thumbnail {
+    height: 29em !important;
+}
+.thumbnail>.caption {
+    padding: initial;
+}
+
+.heading {
+    text-align: center;
+}
+
+/* ----------------------- FarmFresh and Cafe Title ----------------------- */
+
+.customTitle {
+    font-size: 2.75em;
+}
+
+@media (max-width: 750px) {
+    .customTitle {
+        font-size: 2.25em;
+    }
+}

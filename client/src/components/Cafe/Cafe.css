@@ -1,0 +1,39 @@
+@font-face {
+    font-family: agilis;
+    src: url("../font/Agilis.otf");
+}
+
+.coverPhoto {
+    width: 80vw;
+    margin: auto;
+    display: block;
+    border: 25px solid black;
+    padding: 5px;
+    border-image: url("../imgBorder/border1.png") 100 stretch;
+}
+
+.thumbnail {
+    border: 25px solid transparent !important;
+    border-image: url("../imgBorder/border2.png") 95 stretch !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.thumbnail>img {
+    max-height: 50%;
+    border: 1px solid #377C21;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+@media (min-width: 600px) {
+    .coverPhoto {
+        width: 60vw;
+    }
+}
+
+@media (min-width: 990px) {
+    .coverPhoto {
+        width: 45vw;
+    }
+}

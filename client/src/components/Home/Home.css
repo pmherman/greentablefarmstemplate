@@ -1,0 +1,29 @@
+@font-face {
+    font-family: agilis;
+    src: url("../font/Agilis.otf");
+}
+
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html {
+    height:100%;
+}
+
+.carouselPicture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
+.summary {
+    font-family: agilis;
+    font-size: 1.5em;
+}
+
+.smScreenOnly {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .smScreenOnly {
+        display: inline;
+    }
+}

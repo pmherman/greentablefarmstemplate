@@ -1,0 +1,20 @@
+.row {
+    padding: 25px;
+}
+
+.heading {
+ text-decoration: underline;
+}
+
+.adminCafe {
+    height: 30em;
+    overflow: scroll;
+}
+
+#editButton {
+    display: none;
+}
+
+#submitButton {
+    display: inline;
+}

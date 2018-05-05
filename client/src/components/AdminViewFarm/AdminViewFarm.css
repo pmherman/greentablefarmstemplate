@@ -1,0 +1,21 @@
+.row {
+    padding: 25px;
+}
+
+.adminFarm {
+    height: 30em;
+    overflow: scroll;
+}
+
+.adminViewThumbnail {
+    border: 1px solid black !important;
+    border-image: none !important;
+}
+
+#editButton {
+    display: none;
+}
+
+#submitButton {
+    display: inline;
+}
